@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/****************** Navigation bar ********************/
+
+/** Fonts **/
+.poppins {
+    font-family: 'Poppins', serif;
+    font-weight: 500;
+    font-style: medium;
+  }
+  
+
+header {
+    width: 100%;
+    margin: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    background-color: #542ACE;
+} 
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+
+.svg-neo {
+    
+    height: auto;
+    /* max-width: 100%; */
+    width: 100px;
+
+}
+
+.svg-logo {
+    fill: red;
+    padding-left: 0;
+}
+
+/* Navigation links */
+.navbar-links {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-links a {
+    padding: 20px;
+    text-decoration: none;
+    color: hsl(181, 63%, 55%);
+}
+
+/* Call to action button */
+.navbar-button {
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px; 
+    /* border: 2px solid #00b3b6; */
+    border-style: none;
+    border-radius: 25px;
+
+    background-color: #249fa1;
+    color: rgb(249, 249, 249);
+}
+
+
+/**************** Main content *********************/
+
+body {
+    background-color: rgb(141, 141, 141);
+}
+
+
+/******************* Footer *************************/
+
+footer {
+    background-color: blanchedalmond;
+}
